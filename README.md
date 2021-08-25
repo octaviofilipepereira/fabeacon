@@ -24,7 +24,7 @@ O instalador foi testado em Rapberry 3B, 4 e em PC com a distribuição Linux Mi
 
 ### Instalação FABEACON "OS": Openwebrx & Fabeacon 
 
-1. Efectuar o Download do Openwebrx: https://www.openwebrx.de/images/2021-08-03-OpenWebRX-full.zip
+1. Efectuar o Download do Openwebrx: https://www.openwebrx.de/download/rpi.php
 2. Instalar a imagem do Openwebrx num cartão SD. Ver instruções neste link: https://github.com/jketterl/openwebrx/wiki/Setup-Guide
 3. Proceder à instalação do Fabeacon como descrito acima.
 
