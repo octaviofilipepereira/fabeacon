@@ -1,4 +1,4 @@
-# fabeacon
+# Fabeacon
 Raspberry Pi, Telemóvel ou PC com Boletim Informativo e Plano 333
 
 Saber mais sobre o Boletim: https://macanudos.org/boletim-informativo-na-banda-do-cidadao/
@@ -6,37 +6,30 @@ Saber mais sobre o Plano de Comunicações 333: https://macanudos.org/plano-de-e
 
 O presente código tranforma o dispositivo num emissor. Pode ser instalado em Telemóveis Android; raspberry pi ou qualquer pc.
 
-FABEACON Versão "from scratch" no Rpi: 
-- Sacar o Raspbian (openwebrx ou Pi sdr etc..) e instalar num cartão de memória SD. Sugerimos usar o comando dd em linux ou em windows o programa win32iso.
-- Ir ao "boot" do cartão flashado e criar um ficheiro com o nome "ssh". Isso permite aceder ao Rpi via rede por SSH.
-- Ligar o Rpi com o cartão, ver que ip assumiu na rede e fazer ssh nele ssh pi@ipdorpi.
-- fazer "sudo su" para tornar administrador e dar os seguintes commandos:
+Fabeacon Author: Rolando Reset
 
-  sudo su # tornar admin
-  
-  raspi-config # actualizar a localização para as horas baterem certo.
-  
-  apt update #actualizar o repositorio
-  
-  apt upgrade # actualizar o sistema
-  
-  apt install openvpn  # instalar a vpn
-  
-  apt install mplayer #instalar o player
-  
-  apt-get install raspi-gpio # instalar os GPIO
-  
-  raspi-gpio get #
-  
-  nano /etc/ssh/sshd_config # inserir "PermitRootLogin yes" e dar "/etc/init.d/ssh restart"
-  
-  nano /etc/hostname | sudo nano /etc/hosts # alterar hostname
-  
-  cd /home/pi/
-  
-  git clone https://github.com/roltel/fabeacon/
-  
-  crontab -e # editar o ficheiro de rotinas para configurar as emissões.
+Website: https://github.com/roltel
+
+Fabeacon Code Source: https://github.com/roltel/fabeacon
+
+
+# Instalação
+
+1. Fazer download do instalador **fabeacon-install.sh**
+2. Tornar o instalador executável: 
+> chmod 755 fabeacon-install.sh
+3. Executar o instalador:
+> bash fabeacon-install.sh
+4. Após a instalação concluida, todas as configurações necessárias foram realizadas e o Fabeacon é executado automáticamente.
+
+# Desinstalação
+
+1. Executar o instalador:
+> bash fabeacon-install.sh
+2. Seleccionar a opção de desinstalação.
+2. Após a desinstalação concluida, o Fabeacon foi retirado do seu dispositivo.
+
+# Notas Gerais e Suporte
   
 Abaixo encontra-se uma versão que usa o Openwebrx (SDR) caso o dispositivo tenha ou venha a ter pen RT8L SDR que só funciona em RPi já preconfigurado com o painel de administração, a vpn e outras ferramentas privadas.
 
