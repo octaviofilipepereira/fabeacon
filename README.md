@@ -1,10 +1,11 @@
 # Fabeacon
 Raspberry Pi, Telemóvel ou PC com Boletim Informativo e Plano 333
 
-Saber mais sobre o Boletim: https://macanudos.org/boletim-informativo-na-banda-do-cidadao/
-Saber mais sobre o Plano de Comunicações 333: https://macanudos.org/plano-de-emergencia-3-3-3/
-
 O presente código tranforma o dispositivo num emissor. Pode ser instalado em Telemóveis Android; raspberry pi ou qualquer pc.
+
+Saber mais sobre o Boletim: https://macanudos.org/boletim-informativo-na-banda-do-cidadao/
+
+Saber mais sobre o Plano de Comunicações 333: https://macanudos.org/plano-de-emergencia-3-3-3/
 
 Fabeacon Author: Rolando Reset
 
