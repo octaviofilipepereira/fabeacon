@@ -1,4 +1,5 @@
 # Fabeacon
+
 Raspberry Pi, Telemóvel ou PC com Boletim Informativo e Plano 333
 
 O presente código tranforma o dispositivo num emissor. Pode ser instalado em Telemóveis Android; raspberry pi ou qualquer pc.
@@ -30,32 +31,22 @@ Fabeacon Code Source: https://github.com/roltel/fabeacon
 2. Seleccionar a opção de desinstalação.
 2. Após a desinstalação concluida, o Fabeacon foi retirado do seu dispositivo.
 
-# Notas Gerais e Suporte
-  
-Abaixo encontra-se uma versão que usa o Openwebrx (SDR) caso o dispositivo tenha ou venha a ter pen RT8L SDR que só funciona em RPi já preconfigurado com o painel de administração, a vpn e outras ferramentas privadas.
+# Instalação FABEACON "OS": Openwebrx & Fabeacon 
 
-FABEACON "OS": Openwebrx & Fabeacon 
-Puxar a seguinte imagem e flashar: 
+1. Efectuar o Download do Openwebrx: https://www.openwebrx.de/images/2021-08-03-OpenWebRX-full.zip
+2. Instalar a imagem do Openwebrx num cartão SD. Ver instruções neste link: https://github.com/jketterl/openwebrx/wiki/Setup-Guide
+3. Proceder à instalação do Fabeacon como descrito acima.
 
-Conteúdo:
-- OS Openwebrx (para se quiser que um dia o sistema tb funcione como sdr)
-- Python para usar o GPIO e ligar o pin 17 BCM que é o Board n.º 11
-- Jingle Boletim e roger beep 333
-- Cron - ficheiro com as rotinas
+# Painel de Administração Fabeacon
 
-==VPN== 
-A VPN permite que possa controlar o RPI dentro de uma rede privada dando acesso não só ao painel de administraçáo abaixo como também acesso interno ao SDR (caso tenha a pen ligada) ou interligação com outros sistemas.
-A VPN instalada acima. Bastará meter o ficheiro fabeaconXX.conf que lhe foi enviado na pasta /etc/openvpn/. Como? Usando o shh scp para copiar de outro sistema ou o filezilla (cliente SFTP); 
+Link: https://futuragora.pt/futurai/priv/radioadmin
 
-Painel de controle:
-https://futuragora.pt/futurai/priv/radioadmin
+1. Emitir Boletim
+2. Emitir Boletim Digital RTTY
+3. Emitir Plano 333
+4. Emitir audio gravado na página.
+5. Ligar a Portadora
+6. Desligar a Portadora
 
-- Emitir Boletim
-- Emitir Boletim Digital RTTY
-- Emitir Plano 333
-- Emitir audio gravado na página.
-
-- Ligar a Portadora
-- Desligar a Portadora
-
-Disclaimer: As emissões dos ficheiros audio gerados pelo presente código-livre estão sujeitas às suas condicionantes legais e são da esclusiva responsabilidade das estações que as emitiem.
+# Disclaimer
+1. As emissões dos ficheiros audio gerados pelo presente código-livre estão sujeitas às suas condicionantes legais e são da esclusiva responsabilidade das estações que as emitiem.
