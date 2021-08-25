@@ -2,7 +2,7 @@
 
 Fork do código original Fabeacon https://github.com/roltel/fabeacon
 
-Neste fork encontra o instalador do Fabeacon que escrevi (fabeacon-install.sh), mediante os passos originais de instalação manual descritos pelo Rolando Reset.
+Neste fork encontra o instalador do Fabeacon que escrevi (fabeacon-install.sh), mediante os passos originais de instalação manual descritos pelo Rolando Reset, de forma a agilizar e facilitar a instalação e desinstalação do Fabeacon.
 
 O instalador foi testado em Rapberry 3B, 4 e em PC com a distribuição Linux Mint 20.1 Ulyssa.
 
