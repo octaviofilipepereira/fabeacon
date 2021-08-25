@@ -22,7 +22,7 @@ O instalador foi testado em Rapberry 3B, 4 e em PC com a distribuição Linux Mi
 2. Seleccionar a opção de desinstalação.
 2. Após a desinstalação concluida, o Fabeacon foi retirado do seu dispositivo.
 
-### Instalação FABEACON "OS": Openwebrx & Fabeacon 
+### Instalação do Openwebrx & Fabeacon 
 
 1. Efectuar o Download do Openwebrx: https://www.openwebrx.de/download/rpi.php
 2. Instalar a imagem do Openwebrx num cartão SD. Ver instruções neste link: https://github.com/jketterl/openwebrx/wiki/Setup-Guide
