@@ -50,7 +50,7 @@ if [ ! -f /var/log/fabeacon-install.log ]; then
 	echo
 	echo -e "\e[38;5;82mBemvindo ao instalador do Fabeacon\e[0m"
 	echo
-	echo -e "\e[38;5;82mEste instalador irá executar os procedimentos necessários de instalação do Fabeacon no seu Raspberri PI.\e[0m"
+	echo -e "\e[38;5;82mEste instalador irá executar os procedimentos necessários de instalação do Fabeacon no seu dispositivo.\e[0m"
 	echo
 	echo
 	read -p "Aceita continuar com a instalação? (s/n)" INSTALATION;
@@ -62,7 +62,7 @@ else
 	echo
 	echo -e "\e[38;5;82mO Fabeacon já se encontra instalado.\e[0m"
 	echo
-	read -p "Pretende remover permanentemente o Fabeacon no seu Raspberri PI? (s/n)" INSTALATION;
+	read -p "Pretende remover permanentemente o Fabeacon no seu dispositivo? (s/n)" INSTALATION;
 	echo
 	if [ "$INSTALATION" == "n" ]; then
 			exit 0;
