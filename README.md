@@ -1,19 +1,10 @@
 # Fabeacon
 
-Raspberry Pi, Telemóvel ou PC com Boletim Informativo e Plano 333
+Fork do código original Fabeacon https://github.com/roltel/fabeacon
 
-O presente código tranforma o dispositivo num emissor. Pode ser instalado em Telemóveis Android; raspberry pi ou qualquer pc.
+Neste fork encontra o instalador do Fabeacon que escrevi (fabeacon-install.sh), mediante os passos originais de instalação manual descritos pelo Rolando Reset.
 
-Saber mais sobre o Boletim: https://macanudos.org/boletim-informativo-na-banda-do-cidadao/
-
-Saber mais sobre o Plano de Comunicações 333: https://macanudos.org/plano-de-emergencia-3-3-3/
-
-Fabeacon Author: Rolando Reset
-
-Website: https://github.com/roltel
-
-Fabeacon Code Source: https://github.com/roltel/fabeacon
-
+O instalador foi testado em Rapberry 3B, 4 e em PC com a distribuição Linux Mint 20.1 Ulyssa.
 
 # Instalação
 
@@ -36,6 +27,16 @@ Fabeacon Code Source: https://github.com/roltel/fabeacon
 1. Efectuar o Download do Openwebrx: https://www.openwebrx.de/images/2021-08-03-OpenWebRX-full.zip
 2. Instalar a imagem do Openwebrx num cartão SD. Ver instruções neste link: https://github.com/jketterl/openwebrx/wiki/Setup-Guide
 3. Proceder à instalação do Fabeacon como descrito acima.
+
+# Saber mais sobre este projecto: https://github.com/roltel/fabeacon
+
+Raspberry Pi, Telemóvel ou PC com Boletim Informativo e Plano 333
+
+O presente código tranforma o dispositivo num emissor. Pode ser instalado em Telemóveis Android; raspberry pi ou qualquer pc.
+
+Saber mais sobre o Boletim: https://macanudos.org/boletim-informativo-na-banda-do-cidadao/
+
+Saber mais sobre o Plano de Comunicações 333: https://macanudos.org/plano-de-emergencia-3-3-3/
 
 # Painel de Administração Fabeacon
 
