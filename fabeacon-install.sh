@@ -3,7 +3,7 @@
 #
 # Install/Uninstall Script for Raspberry Pi Fabeacon Terminal
 #
-# Version: 0.2
+# Version: 0.2.5
 #
 # Last Modification: 25-08-2021
 # Author: Octávio Filipe Gonçalves
